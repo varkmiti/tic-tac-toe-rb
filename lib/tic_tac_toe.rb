@@ -10,8 +10,8 @@ def input_to_index(input)
     (input.to_i)-1
 end
   
-def move(array, index, value)
-    array[index] = value
+def move(array, index, current_player)
+    array[index] = current_player
   puts array
 end
 
